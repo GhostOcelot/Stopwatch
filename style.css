@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  margin-top: 200px
+}
+
+.tab {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  position: absolute;
+  width: 500px;
+  min-height: 200px
+}
+
+.hidden {
+  display: none
+}
+
+ol {
+  margin: 20px
+}
+
+.controls {
+  display: flex
+}
+
+button {
+  flex-grow: 1;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: aliceblue;
+  outline: none;
+  border: 1px solid #ccc;
+  cursor: pointer
+}
+
+nav {
+  width: 500px;
+  border: 1px solid black;
+}
+
+.nav-button {
+  width: 120px;
+  background-color: aliceblue;
+  margin: 10px 10%;
+
+}
+
+.time {
+  text-align: center;
+  padding: 20px
+}
